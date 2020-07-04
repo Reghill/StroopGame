@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/level_easy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/level_easy"
+        android:layout_marginStart="160dp"
+        android:textSize="16sp"
+        android:layout_marginTop="192dp"/>
+
+    <Button
+        android:id="@+id/level_medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/level_medium"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="312dp"/>
+
+    <Button
+        android:id="@+id/level_hard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="432dp"
+        android:text="@string/level_hard" />
+
+    <TextView
+        android:id="@+id/select_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/select_level"
+        android:textStyle="bold"
+        android:textSize="40sp" />
+</RelativeLayout>
